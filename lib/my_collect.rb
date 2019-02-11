@@ -3,11 +3,10 @@ def my_collect(array)
   x = []
   while i < array.length
     
-    x << yield array[i]
+    x << yield(array[i])
         
     i += 1
-    
-       
+           
   end
   x
 end
