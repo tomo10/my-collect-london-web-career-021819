@@ -8,5 +8,5 @@ def my_collect(array)
     
        
   end
-  yield x
+  x
 end
